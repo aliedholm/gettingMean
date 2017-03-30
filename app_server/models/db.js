@@ -1,6 +1,6 @@
 var mongoose = require ( 'mongoose' );
 var gracefulShutdown;
-var dbURI = 'mongodb://localhost/Loc8r';
+var dbURI = 'mongodb://aliedholm:8693ViaMallorca@ds145800.mlab.com:45800/loc8r';
 mongoose.connect(dbURI);
 
 mongoose.connection.on('connected', function() {
